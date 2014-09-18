@@ -1,5 +1,36 @@
-<p>This is the partial for view 2.</p>
+
+
+
+<div ng-controller="View2Ctrl">
+	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true"></div>
+
+	<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+ -->
+<div id="status">
+</div>
+
+<div data-ng-controller = "View2Ctrl">
+Test: {{ hmm }}
+<button data-ng-click = "dayName()">Generate</button>
+</div>
+</div> 
+
+
+
+
+<!-- <p>This is the partial for view 2.</p>
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
 </p>
+
+<div ng-controller="View2Ctrl">
+	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true"></div>
+</div> -->
